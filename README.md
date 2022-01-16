@@ -17,6 +17,18 @@ Hardware component:
 * [ViGEm](https://github.com/ViGEm/) (not mine)
 * Example ViGEm (WIP)
 
-Testing with local server (WIP)
+## Testing
+
+To test locally you'll need to do something funky or risk that browsers think local closed captions files are insecure.
+
+1. Run the following command in the root folder of this project:
+
+```shell
+npx http-server
+```
+
+2. Open server [on port 80](http://localhost:8080)
+
+## Misc
 
 Want a link to the backend? Reach out for extremely private alpha.
