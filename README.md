@@ -19,7 +19,7 @@ Hardware component:
 
 ## Testing
 
-To test locally you'll need to do something funky or risk that browsers think local closed captions files are insecure.
+If you're trying to test locally with static instance (i.e. not through a hot reloading server) you'll need to do something funky or risk that browsers think local closed captions files are insecure.
 
 1. Run the following command in the root folder of this project:
 
