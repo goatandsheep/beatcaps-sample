@@ -9,7 +9,7 @@ I'm live updating this README during this competition.
 Some example effects I've created:
 
 * Video shake: https://www.npmjs.com/package/dom-jitter (docs WIP) 
-* Colour randomizer: https://www.npmjs.com/package/rainbow-paint (docs WIP)
+* Colour randomizer: https://www.npmjs.com/package/rainbow-paint [docs](https://github.com/goatandsheep/color-randomizer)
 * Vibrate toggle: https://npmjs.com/package/piez (docs WIP)
 
 Hardware component:
