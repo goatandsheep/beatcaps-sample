@@ -14,8 +14,11 @@ Some example effects I've created:
 
 Hardware component:
 
-* [ViGEm](https://github.com/ViGEm/) (not mine)
+* [How to use gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/GamepadHapticActuator/pulse) to connect from browser virtual gamepad
+* [How to use ViGEm](https://github.com/ViGEm/ViGEmClient)
 * Example ViGEm (WIP)
+* 
+haptics in browser -> gamepad API -> ViGEm (convert signal  for haptic pulse to device actuator) -> device
 
 ## Testing
 
