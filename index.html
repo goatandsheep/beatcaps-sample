@@ -34,15 +34,18 @@
   <p>Notes: captions are funky when loading locally. Easiest thing is to push to git or use <a href="https://ngrok.com/">ngrok</a> for testing. Copies of this demo can only be used with permission from Beatcaps staff from Communote Inc. Technologies in this demo may be protected under patent. This demo allows a non-commercial license for limited personal use.</p>
   </body>
   <script src="listener.js"></script>
+  <script src="vibrate.js"></script>
   <script>
     let vidEl = {}
     const showCue = function(timestamp) {
         // TODO: start effect
-      document.getElementById('history').innerHTML += (timestamp + 'ms: show<br>')
+      // document.getElementById('history').innerHTML += (timestamp + 'ms: show<br>')
+      startPersistentVibrate()
     }
     const hideCue = function(timestamp) {
         // TODO: stop effect
-      document.getElementById('history').innerHTML += (timestamp + 'ms: hide<br>')
+      // document.getElementById('history').innerHTML += (timestamp + 'ms: hide<br>')
+      stopVibrate()
     }
     window.onload = function() {
       vidEl = document.getElementById('sample-video')
