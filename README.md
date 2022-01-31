@@ -2,7 +2,7 @@
 
 This is a sample way to use Beatcaps for imagining music
 
-Closed captions listener: you can copy and paste it from here: https://github.com/goatandsheep/closed-captions-listener or install it from NPM here: https://www.npmjs.com/package/caption-sync (docs created)
+Closed captions listener: you can copy and paste it from here: https://github.com/goatandsheep/closed-captions-listener or install it from NPM here: https://www.npmjs.com/package/caption-sync
 
 I'm live updating this README during this competition.
 
