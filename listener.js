@@ -1,7 +1,11 @@
+/**
+ * https://github.com/goatandsheep/closed-captions-listener
+ */
 let toggle = false
 // TODO: make array of toggles for each track
 let showCall = () => ''
 let hideCall = () => ''
+let visible = false
 
 function tempCheck(evt) {
     toggle = evt.target.track.activeCues.length
@@ -27,4 +31,18 @@ function closedCaptionsListener(vidEl, showCallback, hideCallback) {
         const el = trax[elRef]
         el.addEventListener('cuechange', tempCheck)
     }
+    
+    vidEl.addEventListener('pause', () => handlePause());
+    vidEl.addEventListener('play', () => handlePlay());
 }
+
+function handlePause() {
+    if (visible = true) {
+      hideCall();
+    }
+  }
+  function handlePlay() {
+    if (visible = true) {
+      showCall();
+    }
+  }
