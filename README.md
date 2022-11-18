@@ -2,6 +2,12 @@
 
 This is a sample way to use Beatcaps for imagining music
 
+Demo Video BeatCaps: https://www.youtube.com/watch?v=HnI-0QQ83-c
+
+Demo Video Hapticast: https://www.youtube.com/watch?v=iGXXlaUfa8w
+
+Marketing site: https://www.beatcaps.io/
+
 Closed captions listener: you can copy and paste it from here: https://github.com/goatandsheep/closed-captions-listener or install it from NPM here: https://www.npmjs.com/package/caption-sync
 
 I'm live updating this README during this competition.
@@ -16,8 +22,8 @@ Hardware component:
 
 * [How to use gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/GamepadHapticActuator/pulse) to connect from browser virtual gamepad
 * [How to use ViGEm](https://github.com/ViGEm/ViGEmClient)
-* Example ViGEm (WIP)
-* 
+* [Hapticast](https://github.com/goatandsheep/hapticast): example using ViGEm
+
 haptics in browser -> gamepad API -> ViGEm (convert signal  for haptic pulse to device actuator) -> device
 
 ## Testing
@@ -34,4 +40,4 @@ npx http-server
 
 ## Misc
 
-Want a link to the backend? Reach out for extremely private alpha.
+Want a link to the backend? Reach out for private alpha.
